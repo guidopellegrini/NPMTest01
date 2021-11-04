@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
     </p>
   `,
   styles: [
+    `
+      p {
+        background-color: red;
+      }
+    `
   ]
 })
 export class CommonLibraryComponent implements OnInit {
